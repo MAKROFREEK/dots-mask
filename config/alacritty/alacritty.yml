@@ -1,0 +1,67 @@
+## Configuration for Alacritty, the GPU enhanced terminal emulator.
+## Created by Christianj @LetsHaveKiddos
+
+## Set environment variables
+env:
+  TERM: alacritty
+
+## Terminal window settings
+window:
+  dimensions:
+    columns: 84
+    lines: 22
+
+  padding:
+    x: 8
+    y: 8
+
+  decorations: full
+  startup_mode: Windowed
+  dynamic_title: true
+
+## scrolling
+  history: 10000
+  multiplier: 3
+
+## Background opacity
+background_opacity: 0.98
+
+## Live config reload
+live_config_reload: true
+
+# Base16 oomox-mask - alacritty color config
+# oomox-mask
+colors:
+  # Default colors
+  primary:
+    background: '0x1f2c33'
+    foreground: '0xf3f7f5'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '0x1f2c33'
+    cursor: '0xf3f7f5'
+
+  # Normal colors
+  normal:
+    black:   '0x1f2c33'
+    red:     '0xdd7864'
+    green:   '0xaaa485'
+    yellow:  '0xda9e6f'
+    blue:    '0x87a2a8'
+    magenta: '0x909cb4'
+    cyan:    '0x96adab'
+    white:   '0xf3f7f5'
+
+  # Bright colors
+  bright:
+    black:   '0x899194'
+    red:     '0xda8848'
+    green:   '0x283941'
+    yellow:  '0x3a505b'
+    blue:    '0x0b181f'
+    magenta: '0xa4b9af'
+    cyan:    '0xc76c42'
+    white:   '0xf3f7f5'
+
+draw_bold_text_with_bright_colors: false

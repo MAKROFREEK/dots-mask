@@ -1,0 +1,51 @@
+* {
+    background-color: #1f2c33;
+    color: #f3f7f5;
+    font: "DejaVuSansMono 9";
+}
+
+#window {
+    /*anchor: north;*/
+    location: north west;
+    width: 900px;
+    padding: -6px 10px;
+    children: [horibox];   
+}
+
+#horibox {
+    orientation: horizontal;
+    children:   [listview];
+}
+
+#listview {
+    layout: horizontal;
+    padding: 0px 0;
+    spacing: 1px;
+    lines: 100;
+}
+
+#sidebar {
+
+}
+
+#prompt {
+    padding: 6px 0px 0px 24px;
+}
+
+#entry {
+    color: #e9d9d3;
+    expand: false;
+    width: 10em;
+    padding: 5px 10px 0px -6px;
+    placeholder: "Search...";
+}
+
+#element {
+    margin: 0px 5px;
+    padding: 6px 3px;
+}
+
+#element selected {
+    color: #da5f48;
+}
+

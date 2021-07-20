@@ -1,0 +1,44 @@
+/*LetsHaveKiddos dmenu style*/
+/*rofi menu thingy*/
+
+* {
+    background-color:       #1f2c33;
+    text-color:             #f3f7f5;
+    font:                   "DejaVu Sans 10";
+}
+
+window {
+    /*anchor:     north;*/
+    location:   north west;
+    width:      90%;
+    padding:    0px;
+    children:   [ horibox ];
+}
+
+horibox {
+    orientation: horizontal;
+    children:   [ /*prompt, */entry, listview ];
+}
+/*add this to "children" if you want to see what is running i.e calc file-browser etc*/
+/*prompt,*/
+
+listview {
+    layout:     horizontal;
+    spacing:    5px;
+    lines:      200;
+}
+
+entry {
+    text-color: #f3f7f5;
+    padding: 2px 2px;
+    expand:     false;
+    width:      10em;
+}
+
+element {
+    padding: 2px 2px;
+}
+element selected {
+    /*background-color: #da5f48;*/
+    text-color: #da5f48;
+}
