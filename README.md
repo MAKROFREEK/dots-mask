@@ -1,6 +1,17 @@
 # dots-mask
 LetsHaveKiddos dotfiles arch linux
 
+alacritty
+dunst
+i3
+kitty
+nvim
+picom
+polybar
+pomotroid
+qutebrowser
+rofi
+sublime-text-3
 
 ![image](https://github.com/LetsHaveKiddos/dots-mask/blob/master/screenshots/Screenshot_20210720_174845.png)
 
