@@ -1,17 +1,29 @@
 # dots-mask
-LetsHaveKiddos dotfiles arch linux
+LetsHaveKiddos dotfiles i3 arch linux 
 
-alacritty
-dunst
-i3
-kitty
-nvim
-picom
-polybar
-pomotroid
-qutebrowser
-rofi
-sublime-text-3
+
+
+terminal: alacritty
+
+notification daemon: dunst
+
+window manager: i3
+
+terminal emulator: kitty
+
+text editor: nvim
+
+compositor: picom aur/picom-rounded-corners
+
+bar/status bar: polybar
+
+pomodoro timer: pomotroid
+
+web browser: qutebrowser
+
+drop in dmenu replacement: rofi 
+
+text editor: sublime-text-3 
 
 ![image](https://github.com/LetsHaveKiddos/dots-mask/blob/master/screenshots/Screenshot_20210720_174845.png)
 
