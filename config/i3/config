@@ -12,7 +12,7 @@ font xft:DejaVuSansMono 10
 # important
 exec --no-startup-id xrandr --output DP-0 --off --output DP-1 --off --output HDMI-0 --mode 1920x1080 --pos 0x0 --above DP-2 --rotate normal --output DP-2 --primary --mode 1920x1080 --rate 239.76 --pos 0x1080 --rotate normal --output DP-3 --off --output DP-4 --off --output DP-5 --off --output USB-C-0 --off
 exec --no-startup-id feh --bg-scale ~/Pictures/Backgrounds/mask.png --bg-scale ~/Pictures/Backgrounds/mask.png
-exec ~/.config/polybar/scripts/i3lock.sh
+exec ~/.config/rofi/scripts/i3lock.sh
 exec_always python ~/.config/i3/plugins/alternating-layout.py
 exec_always python ~/.config/i3/plugins/window-swallowing.py
 #exec_always --no-startup-id ~/.config/i3/plugins/ i3-auto-layout
@@ -43,7 +43,7 @@ bindsym $mod+Return exec kitty
 bindsym $mod+q kill
 bindsym $mod+p exec --no-startup-id ~/.config/i3/plugins/promote-window
 
-bindsym $mod+0 exec ~/.config/polybar/scripts/powermenu.sh; exec ~/.config/polybar/scripts/uptime.sh
+bindsym $mod+0 exec ~/.config/rofi/scripts/powermenu.sh; exec ~/.config/rofi/scripts/uptime.sh
 
 bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
