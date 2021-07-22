@@ -29,7 +29,6 @@ Plug 'nsf/gocode', { 'tag': 'v.20150303', 'rtp': 'vim' } " autocompletion daemon
 Plug 'ghifarit53/sonokai' " sonokai themes stuffs 
 Plug 'sheerun/vim-polyglot' " A collection of language packs for Vim.
 Plug 'itchyny/lightline.vim' " status bar
-" Plug 'vim-airline/vim-airline' "status bar
 Plug 'neoclide/coc.nvim', { 'branch': 'release' } " autocompletion daemon for vim
 Plug 'junegunn/fzf.vim' " fuzzy file finder
 Plug 'nekonako/xresources-nvim'
@@ -84,7 +83,7 @@ nnoremap <A-l> :call WinMove('k')<CR>
 nnoremap <A-;> :call WinMove('l')<CR>
 
 let g:python3_host_prog = '/usr/bin/python'
-
+let g:java_host_prog = 'usr/bin/java'
 " this part requirtes xmodmap on linux
 au VimEnter * silent! !xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape'
 au VimLeave * silent! !xmodmap -e 'clear Lock' -e 'keycode 0x42 = Caps_Lock'
@@ -92,7 +91,7 @@ au VimLeave * silent! !xmodmap -e 'clear Lock' -e 'keycode 0x42 = Caps_Lock'
 " sets
 set mouse=a
 set nowrap
-set number
+" set number
 
 autocmd VimEnter * hi Normal guibg=NONE ctermbg=NONE
 autocmd vimenter * hi EndOfBuffer guibg=NONE ctermbg=NONE
@@ -108,8 +107,6 @@ nnoremap <C-f> :NERDTreeFind<CR>
 autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() |
     \ quit | endif
 
-set termguicolors
-
 colorscheme mask
 
 set laststatus=2
@@ -117,3 +114,7 @@ set laststatus=2
 let g:lightline = {
       \ 'colorscheme': 'mask',
       \ }
+    
+let g:airline_theme='mask'
+
+set termguicolors
