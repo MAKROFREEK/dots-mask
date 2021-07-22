@@ -3,7 +3,7 @@ LetsHaveKiddos dotfiles i3 arch linux
 
 
 
-terminal: alacritty
+terminal emulator: alacritty
 
 notification daemon: dunst
 
