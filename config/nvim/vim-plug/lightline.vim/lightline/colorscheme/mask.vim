@@ -5,14 +5,14 @@
 " Last Change: 2020/02/15 20:57:45.
 " =============================================================================
 
-let s:black = [ '#1f2c33', 233 ]
-let s:gray = [ '#a4b9af', 244 ]
+let s:black = [ '#283941', 233 ]
+let s:gray = [ '#f3f7f5', 244 ]
 let s:white = [ '#f3f7f5', 234 ]
-let s:cyan = [ '#6f83a7', 81 ]
+let s:cyan = [ '#da5f48', 81 ]
 let s:green = [ '#938d6b', 118 ]
 let s:orange = [ '#6f9ca7', 166 ]
 let s:pink = [ '#da5f48', 161 ]
-let s:red = [ '#6c9693', 160 ]
+let s:red = [ '#f3f7f5', 160 ]
 let s:yellow = [ '#da8848', 229 ]
 
 let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {}}
