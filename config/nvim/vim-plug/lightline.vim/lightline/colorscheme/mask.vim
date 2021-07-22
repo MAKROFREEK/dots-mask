@@ -1,10 +1,3 @@
-" =============================================================================
-" Filename: autoload/lightline/colorscheme/mask.vim
-" Author: challsted
-" License: MIT License
-" Last Change: 2020/02/15 20:57:45.
-" =============================================================================
-
 let s:black = [ '#283941', 233 ]
 let s:gray = [ '#f3f7f5', 244 ]
 let s:white = [ '#f3f7f5', 234 ]
