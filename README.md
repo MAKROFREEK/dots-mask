@@ -3,7 +3,7 @@ Dotfiles i3 arch linux
 
 
 ## INSTALLATION GUIDE
-https://github.com/LetsHaveKiddos/installation-guide
+https://github.com/MAKROFREEK/installation-guide
 
 ![image](https://github.com/LetsHaveKiddos/dots-mask/blob/master/screenshots/Screenshot_20210720_174845.png)
 
