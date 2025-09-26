@@ -1,5 +1,5 @@
 # dots-mask
-LetsHaveKiddos dotfiles i3 arch linux 
+Dotfiles i3 arch linux 
 
 
 ## INSTALLATION GUIDE
