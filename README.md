@@ -1,9 +1,22 @@
-# dots-mask
-Dotfiles i3 arch linux 
+**Dependencies**:
+* Kitty
+* Dunst
+* Polybar
+* betterlockscreen
+* i3lock-fancy
+* i3-gaps
+* rofi
+* picom-ibhagwan-git
+**OPTIONAL**
+* BetterDiscord
+* Discord
+* Sublime
+* Spotify
+* Thunar
+* Zathura
+* Neovim
 
-
-## INSTALLATION GUIDE
-https://github.com/MAKROFREEK/installation-guide
+## Screens
 
 ![image](https://github.com/LetsHaveKiddos/dots-mask/blob/master/screenshots/Screenshot_20210720_174845.png)
 
